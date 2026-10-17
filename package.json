@@ -1,0 +1,10 @@
+{
+  "name": "ai-chat-session-registry",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Kode unik dan audit sesi AI lintas akun/platform: ChatGPT Gemini Claude, prompt dan tautan riset, integrasi OpenAI API opsional",
+  "main": "src/chat-audit.js",
+  "scripts": { "start": "node server.js", "test": "node --test", "seed": "node scripts/seed.js" },
+  "engines": { "node": ">=18.0.0" },
+  "license": "MIT"
+}
